@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(157, 233, 73);
+    font-family: cursive;
+    font-weight: 300;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    /*muy utilizado en las Apps responsive 100%*/
+    width: 100%;
+    height: 160px;
+    background-color: rgba(235, 180, 78, 0.883); /*el último es la transparencia*/
+}
+
+nav ul li {
+    list-style-type: none; /*quitar viñetas*/
+    display: inline-block; /*Cada opción se ve una al lado de la otra*/
+    transition: 0.8s all; /*Tiempo del movimiento al pasar el mouse por encima*/
+    padding: 18px 20px;
+}
+
+nav ul li:hover {
+    background-color: #fff;
+}
+
+nav ul li a {
+    /*Agregar estilos a los hipervínculos*/
+    text-decoration: none; /*quitar la línea de los hipervínculos*/
+    color: #000000;
+}
+a:visited {
+    /* Al ser visitado cambia a este color*/
+    color: #14eb0b;
+}
+
+a:active {
+    /* Al dar click en el enlace cambia a este color*/
+    color: #e26f0e;
+}
+
+/*Ir al Index y en esta linea se agrega al html <br>index.html*/ '<img class="img-logo" src="
+
+/*Estilizamos el logo*/
+.img-logo {
+    width: 100px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+nav ul {
+    padding-top: 90px; /*Para que el menu baje un poco de arriba hacia abajo*/
+    float: right; /*Ubica los elementos del menu de manera flotante a la derecha*/
+}
+
+/* volver al index y descomentar el logo principal*/
+
+.banner {
+    max-width: 100%; /* Para que se ajuste al tamaño del body*/
+}
+/* Estilo para la section featured */
+.featured {
+    background-color: rgba(240,193,107,8.516); /*Color de fondo para la section*/
+}
+
+/*Estilar el vídeo*/
+.fp-video {
+    width: 55%;
+    padding: 2em; /*se basa en el ancho de la letra de la tipografía del elemento padre, ore*/
+    overflow-y: visible;
+}
+
+/*Estilar el artículo featured(el párrafo)*/
+.ft-articulo {
+    width: 30%;
+    padding: 2em;
+    vertical-align: top;
+}
+
+/* Estilo general para todos los artículos*/
+article {
+    padding: 30px;
+    background-color: rgba(240, 220, 107, 0.562);
+    margin: 20px 0; /* OPCIONAL. Para separar un poco los elementos del artículo.
+}
+    .fp-video,
+.ft-articula {
+    /*Ambos en línea y en bloque*/
+    display: inline-block;
+}
+
+.boton-container {
+    text-align: center;
+    background-color: #ea5e39;
+    margin: 0 auto;
+    /*Para centrar el artículo*/
+}
+
+.boton-container a {
+    text-decoration: none;
+    /*Ningún adorno al botón */
+    color: #fff;
+}
+
+.boton {
+    padding: 15px;
+    /*Botón con mas ancho*/
+}
+
+/*Para darle animacion al boton el pasar el puntero del mouse*/
+.boton-container:hover {
+    background-color: #1fbea4;
+}
+.art-image img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.art-cont {
+    width: 70%;
+    vertical-align: top;
+}
+
+h2 {
+    margin: 0;
+    border-bottom: solid thin black;
+}
+
+.footer {
+    background-color: rgba(235, 188, 75, 0.883);
+    color: rgb(31, 12, 130);
+    clear: both;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}

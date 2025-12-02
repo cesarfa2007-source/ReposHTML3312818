@@ -1,0 +1,52 @@
+* {
+    margin: 0; /* Elimina el margen exterior predeterminado de TODOS los elementos. */
+    padding: 0; /* Elimina el relleno interior predeterminado de TODOS los elementos. */
+    box-sizing: border-box; /*Incluye padding y borde dentro del ancho y alto del elemento. */
+}
+html {
+    font-size: 62.5%; /* Configura la unidad rem: 1rem. */
+}
+
+body {
+    font-size: 1.6rem; /* Establece el tamaño de fuente. */
+}
+
+.contenedor {
+   border: 0.3rem solid black; /* Añade un borde visible de 3px de grosor. */
+   display: flex; /* Convierte el elemento en un contenedor Flexbox, alineando sus hijos. */
+   height: 50vh; /* Establece la altura al 50% de la altura visible de la ventana. */
+   flex-wrap: wrap; /* Permite que los ítems salten a una nueva línea si no caben en la línea actual. */
+   
+}
+
+.box {
+    height: 10rem; /* Altura fija de cada caja (100px). */
+    flex-basis: 10rem; /* Ancho inicial de cada caja (100px). */
+    flex-grow: 1; /* Permite que las cajas crezcan para llenar el espacio disponible. */
+}
+
+.box1 {
+    background-color: red;
+    
+}
+
+.box2 {
+    background-color: blue;
+   
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box4 {
+    background-color: yellow;
+}
+
+.box5 {
+    background-color: purple;
+}
+
+.box6 {
+    background-color: orange;
+}
